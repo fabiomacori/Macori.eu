@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fabio Macori — Radiologist</title>
+    <meta name="description" content="Consultant Radiologist. Passionate general radiologist and Mac user. I have nothing to teach, but a lot to share." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="brand">macori.eu</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#links">Link</a>
+        <a href="#contact">Contatti</a>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <section class="hero">
+        <h1>Fabio Macori</h1>
+        <p class="subtitle">Consultant Radiologist</p>
+        <p class="tagline">Passionate general radiologist and Mac user — nothing to teach, a lot to share.</p>
+        <div class="cta">
+          <a class="btn" href="https://radiopaedia.org/users/fabio-macori/cases?filter=all&lang=gb" target="_blank" rel="noopener">Radiopaedia</a>
+          <a class="btn outline" href="https://www.cmrad.com/" target="_blank" rel="noopener">CMRad</a>
+          <a class="btn outline" href="https://www.linkedin.com/in/fabio-macori-60743a137/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <h2>About</h2>
+        <p>Consultant Radiologist — Ospedale Santo Spirito - PTP Nuovo Regina Margherita (Rome). Esperienze in Irlanda (Wexford, Navan). Socio SIRM ed ESR.</p>
+        <ul class="kv">
+          <li><strong>Registrazioni:</strong> GMC Italia #45105 · Irish MC #421812</li>
+          <li><strong>Lingue:</strong> Italiano, English C2 (IELTS 2017)</li>
+          <li><strong>Riconoscimenti:</strong> Radiologist of the month — CMRad</li>
+        </ul>
+      </section>
+
+      <section id="links" class="links">
+        <h2>Collegamenti</h2>
+        <ul>
+          <li><a href="https://macori.eu/blog/">Blog</a></li>
+          <li><a href="https://www.berlincaseviewer.de/covid-19-on-ct-scans/" target="_blank" rel="noopener">BerlinCaseViewer — COVID‑19 cases</a></li>
+          <li><a href="https://radiopaedia.org/" target="_blank" rel="noopener">Radiopaedia</a></li>
+          <li><a href="https://www.cmrad.com/" target="_blank" rel="noopener">Collective Minds Radiology</a></li>
+        </ul>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contatti</h2>
+        <p><a class="btn" href="mailto:fabio@macori.eu">fabio@macori.eu</a></p>
+      </section>
+
+      <footer class="footer">
+        © <span id="y"></span> Fabio Macori
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById('y').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
