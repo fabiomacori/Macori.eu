@@ -1,286 +1,210 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# Assicurati di modificare tutte le sezioni con i tuoi dati personali
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
-
-  # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-  # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
-
-  languages:
-    title: Languages
-    info:
-    - idiom: English
-      level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
-
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
+    about: True # imposta False se vuoi nascondere
+    education: True
+    
+    # Informazioni personali
+    name: Fabio Macori
+    tagline: Consultant Radiologist
+    avatar: profile.png  # metti la tua foto in /assets/images/profile.png
+    
+    # Contatti
+    email: fabio@macori.eu
+    phone: 
+    website: macori.eu
+    linkedin: fabiomacori
+    github: fabiomacori
+    telegram: 
+    gitlab: 
+    bitbucket: 
+    twitter: 
+    stack-overflow: 
+    codewars: 
+    goodreads:
+    
+    # Lingue parlate
+    languages:
+      - idiom: Italiano
+        level: Madrelingua
+      
+      - idiom: Inglese
+        level: C2 - IELTS 2017
+    
+    # Interessi personali
+    interests:
+      - item: Radiologia Medica
+        link:
+      
+      - item: Tecnologia & Computer
+        link:
+      
+      - item: Formazione Continua
+        link:
 
 career-profile:
-  title: Career Profile
-  summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    title: About Me
+    summary: |
+      Passionate general radiologist, computer enthusiast, mac user. 
+      I have nothing to teach, but a lot to share.
+      
+      With over 25 years of experience in diagnostic radiology across Italy and Ireland, 
+      I combine clinical expertise with a strong passion for technology and continuous learning.
+      
+      Active contributor to the international radiology community through platforms like 
+      Radiopaedia and Collective Minds Radiology.
+
 education:
-  title: Education
-  info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - degree: Medical Degree (Laurea in Medicina e Chirurgia)
+      university: Italian University
+      time: 
+      details: |
+        Specialization in Diagnostic Radiology
+        
+    - degree: Medical Registrations
+      university: Professional Authorities
+      time:
+      details: |
+        - General Medical Council, Italy - N. 45105
+        - Irish Medical Council - N. 421812
 
 experiences:
-  title: Experiences
-  info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    - role: Consultant Radiologist
+      time: 2008 - Present
+      company: Ospedale Santo Spirito - PTP Nuovo Regina Margherita, Rome
+      details: |
+        - Diagnostic radiology in a major hospital setting
+        - Multi-modality imaging interpretation (CT, MRI, X-ray, Ultrasound)
+        - Clinical consultation and multidisciplinary team collaboration
+        - Supervision and training of junior radiologists
+    
+    - role: Locum Radiologist
+      time: Sept 2019 - Dec 2019
+      company: Our Lady's Hospital, Navan, Ireland
+      details: |
+        - Temporary consultant position providing diagnostic radiology services
+        - Adapted to Irish healthcare system and reporting standards
+        - Collaboration with clinical teams in emergency and routine settings
+    
+    - role: Consultant Radiologist
+      time: Feb 2018 - Dec 2018
+      company: Wexford General Hospital, Wexford, Ireland
+      details: |
+        - Full-time consultant radiologist position
+        - Comprehensive diagnostic imaging services
+        - Demonstrated remarkable ability to rapidly learn complex medical vocabulary in English
+        - Praised for approachability and commitment to patient care
+    
+    - role: Consultant Radiologist
+      time: 1999 - 2008
+      company: Ospedale San Sebastiano Martire, Frascati, Rome
+      details: |
+        - Diagnostic radiology services for a community hospital
+        - Emergency and elective imaging
+        - Building foundation for subspecialty expertise
 
 projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    title: Collaborations & Contributions
+    intro: >
+      Active participation in the international radiology community through case sharing and educational platforms.
+    
+    assignments:
+      - title: Radiopaedia
+        link: "https://radiopaedia.org/"
+        tagline: "Contributing educational radiology cases to the world's largest collaborative radiology resource"
+      
+      - title: Collective Minds Radiology (CMRad)
+        link: "#"
+        tagline: "Member of collaborative platform for radiologists. Recognized as 'Radiologist of the Month'"
+      
+      - title: BerlinCaseViewer - COVID-19 Cases
+        link: "#"
+        tagline: "Contribution to COVID-19 imaging database for education and research"
+      
+      - title: Professional Blog
+        link: "#"
+        tagline: "Sharing insights, cases, and knowledge with the medical community"
 
 publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+    title: Professional Memberships & Honors
+    intro: |
+      Active member of professional societies and recognized for clinical excellence.
+    
+    papers:
+      - title: "Member of Italian Society of Medical Radiology (SIRM)"
+        link: "#"
+        authors: 
+        conference: "Professional Society Membership"
+      
+      - title: "Member of European Society of Radiology (ESR)"
+        link: "#"
+        authors: 
+        conference: "Professional Society Membership"
+      
+      - title: "Radiologist of the Month"
+        link: "#"
+        authors: 
+        conference: "CMRad - Collective Minds Radiology"
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+references:
+    title: Professional References
+    intro: |
+      Testimonials from consultant radiologist colleagues.
+    
+    items:
+      - name: Dr. Patricia Cunningham
+        title: MB BCh BAO, MMedSci, MSc, FFR RCSI, Consultant Radiologist
+        quote: >
+          He was consistently cheerful at work and was very popular with all staff within the 
+          department. I would be very happy to work with Dr Macori in the future and am happy 
+          to recommend him for similar posts in our other institutions.
+      
+      - name: Dr. Thomas Thiel
+        title: MD, Consultant Radiologist
+        quote: >
+          He is an outgoing and positive person and fun to work with. He is a calculated and 
+          careful radiologist with a profound medical knowledge. He is meticulous with focus 
+          on detail. He is a hard worker with an industrious output.
+      
+      - name: Professor Tadhg Gleeson
+        title: Head of Department of Radiology, UCD Associate Professor, FFR (RCSI), MRCPl, LRCP&SI, BCh, BAO (NUI)
+        quote: >
+          He was a wonderful colleague, and embraced the challenge of taking on a new health 
+          system and new language with enthusiasm and vigour. He displayed remarkable ability 
+          to adapt and rapidly learn a new language and complex vocabulary necessary for 
+          radiological reporting in a very short period of time. He was always approachable 
+          and helpful when clinical colleagues attended the department, and showed a willingness 
+          to further the care of our patients at all junctures.
 
 skills:
-  title: Skills &amp; Proficiency
-
-  toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
+    title: Skills & Expertise
+    
+    toolset:
+      - name: CT Imaging & Interpretation
+        level: 95%
+      
+      - name: MRI Imaging & Interpretation
+        level: 95%
+      
+      - name: X-ray & Fluoroscopy
+        level: 95%
+      
+      - name: Ultrasound
+        level: 90%
+      
+      - name: Cross-sectional Anatomy
+        level: 95%
+      
+      - name: Emergency Radiology
+        level: 90%
+      
+      - name: Computer Skills (Windows & macOS)
+        level: 90%
+      
+      - name: Medical IT Systems (PACS/RIS)
+        level: 85%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
